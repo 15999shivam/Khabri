@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@android:color/white">
+
+
+
+       <androidx.recyclerview.widget.RecyclerView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+           android:background="@drawable/appbackround"
+           android:orientation="vertical"
+           android:id="@+id/Catagory_View"
+           ></androidx.recyclerview.widget.RecyclerView>
+
+       <androidx.recyclerview.widget.RecyclerView
+           android:layout_below="@id/Catagory_View"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+           android:background="@android:color/white"
+           android:id="@+id/newslist"
+
+           ></androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+</RelativeLayout>

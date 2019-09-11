@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SportsActivity"
+    android:background="@drawable/appbackround">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/papa"
+        />
+    <ImageView
+        android:layout_below="@id/papa"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:src="@drawable/loading"
+
+
+        android:id="@+id/loading"
+
+        />
+    <ImageView
+        android:layout_below="@id/papa"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+
+        android:scaleType="center"
+
+        android:id="@+id/Image"
+
+        />
+
+    <RelativeLayout
+        android:layout_marginTop="-10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/Image"
+        android:background="@drawable/catagorybackround"
+        android:padding="10dp"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/title"
+        android:text="title"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:id="@+id/description"
+        android:text="title"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description"
+        android:id="@+id/content"
+        android:text="title"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+
+        />
+    </RelativeLayout>
+</RelativeLayout>
+</ScrollView>
